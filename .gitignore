@@ -2,3 +2,4 @@
 .venv/
 dist/
 *.lock
+**/__pycache__/
