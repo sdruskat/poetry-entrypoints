@@ -15,5 +15,5 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.plugins."entrypoints.plugins"]
-arxiv = "entrypoints.plugins.plugin1:Plugin"
-europubmed = "entrypoints.plugins.plugin2:Plugin"
+plugin1 = "entrypoints.plugins.plugin1:Plugin"
+plugin2 = "entrypoints.plugins.plugin2:Plugin"
