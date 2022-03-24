@@ -23,9 +23,17 @@ and calls the respective plugin `run()` method iteratively for each discovered e
 
 Clone this repository, then use poetry to install the package `entrypoints`, and finally run it.
 
+```bash
+git clone git@github.com:sdruskat/poetry-entrypoints.git
+cd poetry-entrypoints
+poetry shell
+poetry install
+python -m entrypoints
+```
+
 ## Development
 
-If you want to play around with further plugins, make sure to run `poetry build` when you change entrypoint/plugin definitions, otherwise they won't be discoverable.
+If you want to play around with further plugins, make sure to run `poetry install` when you change entrypoint/plugin definitions, otherwise they won't be discoverable.
 
 ## License
 
