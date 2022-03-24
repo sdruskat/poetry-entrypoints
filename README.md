@@ -10,7 +10,7 @@ plugin1 = "entrypoints.plugins.plugin1:Plugin"
 plugin2 = "entrypoints.plugins.plugin2:Plugin"
 ```
 
-Their implementation is in the Python modules `entrypoints/plugins/plugin\<n\>`, 
+Their implementation is in the Python modules `entrypoints/plugins/plugin<n>`, 
 in the form of classes implementing the abstract plugin class `entrypoints.plugins.abc.AbstractPlugin`.
 
 The abstract class defines one static method `run()`, which must also be implemented in the subclasses.
